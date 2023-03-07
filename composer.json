@@ -1,0 +1,39 @@
+{
+    "name": "all-dressed/constants",
+    "description": "Constants that will be shared throughout the repositories.",
+    "keywords": [
+        "alldressed",
+        "all-dressed",
+        "constants",
+        "foodtech"
+    ],
+    "homepage": "https://github.com/all-dressed/constants",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chin Leung",
+            "email": "chin@swoo.ca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllDressed\\Constants\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AllDressed\\Constants\\ServiceProvider"
+            ]
+        }
+    }
+}
