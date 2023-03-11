@@ -6,7 +6,7 @@ use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
 
-enum DiscountType: string
+enum DiscountValueType: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
