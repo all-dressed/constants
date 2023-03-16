@@ -35,6 +35,7 @@ enum Permission: string
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
     case UPDATE_DISCOUNT = 'discounts:update';
     case UPDATE_MENU = 'menus:update';
+    case UPDATE_ORDERS = 'orders:update';
     case UPDATE_PAYMENT_GATEWAY = 'gateways:update';
     case UPDATE_PAYMENT_METHOD = 'customers:payment-methods:update';
     case UPDATE_PRODUCT = 'products:update';
@@ -54,6 +55,7 @@ enum Permission: string
     case VIEW_ITEMS = 'items:index';
     case VIEW_MENU = 'menus:show';
     case VIEW_MENUS = 'menus:index';
+    case VIEW_ORDER = 'orders:show';
     case VIEW_ORDERS = 'orders:index';
     case VIEW_PACKAGE = 'packages:show';
     case VIEW_PACKAGES = 'packages:index';
