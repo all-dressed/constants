@@ -36,6 +36,7 @@ enum Permission: string
     case UPDATE_DISCOUNT = 'discounts:update';
     case UPDATE_MENU = 'menus:update';
     case UPDATE_ORDER = 'orders:update';
+    case UPDATE_PACKAGE = 'packages:update';
     case UPDATE_PAYMENT_GATEWAY = 'gateways:update';
     case UPDATE_PAYMENT_METHOD = 'customers:payment-methods:update';
     case UPDATE_PRODUCT = 'products:update';
