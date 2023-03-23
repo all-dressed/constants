@@ -41,6 +41,7 @@ enum Permission: string
     case UPDATE_PAYMENT_GATEWAY = 'gateways:update';
     case UPDATE_PAYMENT_METHOD = 'customers:payment-methods:update';
     case UPDATE_PRODUCT = 'products:update';
+    case UPADTE_SETTING = 'settings:update';
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
@@ -66,6 +67,7 @@ enum Permission: string
     case VIEW_PAYMENT_METHODS = 'customers:payment-methods:index';
     case VIEW_PRODUCT = 'products:show';
     case VIEW_PRODUCTS = 'products:index';
+    case VIEW_SETTINGS = 'settings:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
 
