@@ -29,6 +29,7 @@ enum Permission: string
     case DELETE_MENU = 'menus:delete';
     case DELETE_PACKAGE = 'packages:delete';
     case DELETE_PAYMENT_GATEWAY = 'gateways:delete';
+    case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
     case UPDATE_CATEGORY = 'categories:update';
     case UPDATE_CUSTOMER = 'customers:update';
