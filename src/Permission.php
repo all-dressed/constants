@@ -16,6 +16,7 @@ enum Permission: string
     case CREATE_DELIVERY_ZONE = 'delivery-zones:create';
     case CREATE_DISCOUNT = 'discounts:create';
     case CREATE_MENU = 'menus:create';
+    case CREATE_NOTE = 'notes:create';
     case CREATE_PAYMENT_GATEWAY = 'gateways:create';
     case CREATE_PAYMENT_METHOD = 'customers:payment-methods:create';
     case CREATE_PRODUCT = 'products:create';
