@@ -3,6 +3,6 @@
 use AllDressed\Constants\TransactionStatus;
 
 return [
-    TransactionStatus::FAILED->value => 'failed',
+    TransactionStatus::FAILED->value => 'Failed',
     TransactionStatus::SUCCEEDED->value => 'Succeeded',
 ];
