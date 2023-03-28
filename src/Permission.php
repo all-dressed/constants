@@ -10,6 +10,7 @@ enum Permission: string
 {
     use AvailableAsCollection, CanBeRandomized;
 
+    case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
     case CREATE_API_TOKEN = 'tokens:api:create';
     case CREATE_CATEGORY = 'categories:create';
     case CREATE_CUSTOMER = 'customers:create';
@@ -24,6 +25,7 @@ enum Permission: string
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
     case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
+    case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
     case DELETE_API_TOKEN = 'tokens:api:delete';
     case DELETE_CATEGORY = 'categories:delete';
     case DELETE_CUSTOMER = 'customers:delete';
