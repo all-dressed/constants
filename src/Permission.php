@@ -11,6 +11,7 @@ enum Permission: string
     use AvailableAsCollection, CanBeRandomized;
 
     case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
+    case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
     case CREATE_CATEGORY = 'categories:create';
     case CREATE_CUSTOMER = 'customers:create';
