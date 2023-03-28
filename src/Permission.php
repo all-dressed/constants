@@ -22,6 +22,7 @@ enum Permission: string
     case CREATE_PRODUCT = 'products:create';
     case CREATE_PACKAGE = 'packages:create';
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
+    case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
     case DELETE_API_TOKEN = 'tokens:api:delete';
     case DELETE_CATEGORY = 'categories:delete';
@@ -32,6 +33,7 @@ enum Permission: string
     case DELETE_PAYMENT_GATEWAY = 'gateways:delete';
     case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
+    case DELETE_TEAM = 'teams:delete';
     case UPDATE_CATEGORY = 'categories:update';
     case UPDATE_CUSTOMER = 'customers:update';
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
@@ -45,6 +47,7 @@ enum Permission: string
     case UPDATE_PRODUCT = 'products:update';
     case UPADTE_SETTING = 'settings:update';
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
+    case UPDATE_TEAM = 'teams:update';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
     case VIEW_CHOICES = 'choices:index';
@@ -72,6 +75,8 @@ enum Permission: string
     case VIEW_SETTINGS = 'settings:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
+    case VIEW_TEAM = 'teams:show';
+    case VIEW_TEAMS = 'teams:index';
 
     /**
      * Retrieve all the permissions as a collection.
