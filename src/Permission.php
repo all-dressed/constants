@@ -37,6 +37,7 @@ enum Permission: string
     case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
+    case REFUND_ORDER = 'orders:refund';
     case UPDATE_CATEGORY = 'categories:update';
     case UPDATE_CUSTOMER = 'customers:update';
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
