@@ -2,7 +2,7 @@
 
 namespace AllDressed\Constants;
 
-enum Integration: string
+enum ThirdPartyService: string
 {
     case BECOOL = 'becool';
     case KLAVIYO = 'klaviyo';
