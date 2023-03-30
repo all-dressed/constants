@@ -28,7 +28,7 @@ enum Permission: string
     case CREATE_TAG = 'tags:create';
     case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
-    case DEACTIVATE_DELIVERY_SCHEDULES = 'delivery-schedules:deactivate';
+    case DEACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:deactivate';
     case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
     case DELETE_API_TOKEN = 'tokens:api:delete';
     case DELETE_CATEGORY = 'categories:delete';
