@@ -24,7 +24,7 @@ enum Permission: string
     case CREATE_PRODUCT = 'products:create';
     case CREATE_PACKAGE = 'packages:create';
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
-    case CREATE_TAGS = 'tags:create';
+    case CREATE_TAG = 'tags:create';
     case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
     case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
