@@ -24,6 +24,7 @@ enum Permission: string
     case CREATE_PRODUCT = 'products:create';
     case CREATE_PACKAGE = 'packages:create';
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
+    case CREATE_TAGS = 'tags:create';
     case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
     case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
@@ -79,6 +80,7 @@ enum Permission: string
     case VIEW_SETTINGS = 'settings:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
+    case VIEW_TAGS = 'tags:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
 
