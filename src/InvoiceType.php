@@ -11,4 +11,5 @@ enum InvoiceType: string
     use AvailableAsCollection, CanBeRandomized, HasTranslation;
 
     case PAYMENT = 'payment';
+    case REFUND = 'refund';
 }
