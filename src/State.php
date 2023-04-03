@@ -12,7 +12,13 @@ enum State: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
+    case NEW_SOUTH_WALES = 'NSW';
+    case NORTHERN_TERRITORY = 'NT';
     case QUEENSLAND = 'QLD';
+    case SOUTH_AUSTRALIA = 'SA';
+    case TASMANIA = 'TA';
+    case VICTORIA = 'VIC';
+    case WESTERN_AUSTRALIA = 'WA';
 
     /**
      * Retrieve the country of the state.
