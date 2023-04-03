@@ -14,11 +14,21 @@ trait HasTranslation
      */
     public function getLabel(): string
     {
+        return Lang::get("constants::{$this->getTranslationKey()}");
+    }
+
+    /**
+     * Retrieve the key of the translation.
+     *
+     * @return string
+     */
+    public function getTranslationKey(): string
+    {
         $class = Str::of(get_called_class())
             ->classBasename()
             ->plural()
             ->snake('-');
 
-        return Lang::get("constants::{$class}.{$this->value}");
+        return "{$class}.{$this->value}";
     }
 }
