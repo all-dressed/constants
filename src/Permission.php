@@ -12,6 +12,7 @@ enum Permission: string
 
     case ACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:activate';
     case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
+    case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
     case CREATE_CATEGORY = 'categories:create';
