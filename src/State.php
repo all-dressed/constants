@@ -5,18 +5,12 @@ namespace AllDressed\Constants;
 use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 
 enum State: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
-
-    /**
-     * The country of the state.
-     *
-     * @var null|\AllDressed\Constants\Country
-     */
-    protected ?Country $country = null;
 
     case QUEENSLAND = 'QLD';
 
@@ -27,14 +21,19 @@ enum State: string
      */
     public function getCountry(): Country
     {
-        if ($this->country === null) {
-            $country = collect(Lang::get('constants::states'))
-                ->search(static fn ($states) => collect($states)->has('QLD'));
+        $key = "alldressed-{$this->value}-country";
 
-            $this->country = Country::from($country);
+        if (! App::has($key)) {
+            App::singleton($key, static function () {
+                $country = collect(Lang::get('constants::states'))->search(
+                    static fn ($states) => collect($states)->has('QLD')
+                );
+
+                return Country::from($country);
+            });
         }
 
-        return $this->country;
+        return App::get($key);
     }
 
     /**
