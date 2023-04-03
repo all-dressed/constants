@@ -43,6 +43,6 @@ enum State: string
      */
     public function getTranslationKey(): string
     {
-        return "{$this->getCountry()}.{$this->value}";
+        return "{$this->getCountry()->value}.{$this->value}";
     }
 }
