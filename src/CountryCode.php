@@ -263,7 +263,7 @@ enum CountryCode: string
             Country::SAINT_MARTIN => static::GP,
             Country::SVALBARD_AND_JAN_MAYEN => static::NO,
 
-            default => static::all()->get($country->value),
+            default => static::all()->firstWhere('name', $country->value),
         };
     }
 
