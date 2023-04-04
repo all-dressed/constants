@@ -12,7 +12,7 @@ enum Permission: string
 
     case ACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:activate';
     case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
-    case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
+    case BILL_SUBSCRIPTION = 'subscriptions:bill';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
     case CREATE_CATEGORY = 'categories:create';
@@ -41,6 +41,7 @@ enum Permission: string
     case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
+    case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case REFUND_ORDER = 'orders:refund';
     case UPDATE_CATEGORY = 'categories:update';
     case UPDATE_CUSTOMER = 'customers:update';
