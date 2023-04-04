@@ -14,6 +14,7 @@ enum State: string
 
     case NEW_SOUTH_WALES = 'NSW';
     case NORTHERN_TERRITORY = 'NT';
+    case QUEBEC = 'QC';
     case QUEENSLAND = 'QLD';
     case SOUTH_AUSTRALIA = 'SA';
     case TASMANIA = 'TA';

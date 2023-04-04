@@ -13,4 +13,8 @@ return [
         State::VICTORIA->value => 'Victoria',
         State::WESTERN_AUSTRALIA->value => 'Western Australia',
     ],
+
+    Country::CANADA->value => [
+        State::QUEBEC->value => 'Quebec',
+    ],
 ];
