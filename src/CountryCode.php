@@ -25,7 +25,6 @@ enum CountryCode: string
     case AT = '+43';
     case AU = '+61';
     case AW = '+297';
-    case AX = '+358';
     case AZ = '+994';
     case BA = '+387';
     case BB = '+1246';
@@ -36,7 +35,6 @@ enum CountryCode: string
     case BH = '+973';
     case BI = '+257';
     case BJ = '+229';
-    case BL = '+590';
     case BM = '+1441';
     case BN = '+673';
     case BO = '+591';
@@ -46,8 +44,6 @@ enum CountryCode: string
     case BW = '+267';
     case BY = '+375';
     case BZ = '+501';
-    case CA = '+1';
-    case CC = '+61';
     case CD = '+243';
     case CF = '+236';
     case CG = '+242';
@@ -61,7 +57,6 @@ enum CountryCode: string
     case CR = '+506';
     case CU = '+53';
     case CV = '+238';
-    case CX = '+61';
     case CY = '+357';
     case CZ = '+420';
     case DE = '+49';
@@ -78,7 +73,6 @@ enum CountryCode: string
     case ET = '+251';
     case FI = '+358';
     case FJ = '+679';
-    case FK = '+500';
     case FM = '+691';
     case FO = '+298';
     case FR = '+33';
@@ -87,7 +81,6 @@ enum CountryCode: string
     case GD = '+1473';
     case GE = '+995';
     case GF = '+594';
-    case GG = '+44';
     case GH = '+233';
     case GI = '+350';
     case GL = '+299';
@@ -109,14 +102,12 @@ enum CountryCode: string
     case ID = '+62';
     case IE = '+353';
     case IL = '+972';
-    case IM = '+44';
     case IN = '+91';
     case IO = '+246';
     case IQ = '+964';
     case IR = '+98';
     case IS = '+354';
     case IT = '+39';
-    case JE = '+44';
     case JM = '+1876';
     case JO = '+962';
     case JP = '+81';
@@ -146,7 +137,6 @@ enum CountryCode: string
     case MC = '+377';
     case MD = '+373';
     case ME = '+382';
-    case MF = '+590';
     case MG = '+261';
     case MH = '+692';
     case MK = '+389';
@@ -168,7 +158,6 @@ enum CountryCode: string
     case NA = '+264';
     case NC = '+687';
     case NE = '+227';
-    case NF = '+672';
     case NG = '+234';
     case NI = '+505';
     case NL = '+31';
@@ -191,7 +180,6 @@ enum CountryCode: string
     case PS = '+970';
     case PT = '+351';
     case PW = '+680';
-    case PY = '+595';
     case QA = '+974';
     case RE = '+262';
     case RO = '+40';
@@ -206,7 +194,6 @@ enum CountryCode: string
     case SG = '+65';
     case SH = '+290';
     case SI = '+386';
-    case SJ = '+47';
     case SK = '+421';
     case SL = '+232';
     case SM = '+378';
@@ -248,10 +235,37 @@ enum CountryCode: string
     case WF = '+681';
     case WS = '+685';
     case YE = '+967';
-    case YT = '+262';
     case ZA = '+27';
     case ZM = '+260';
     case ZW = '+263';
+
+    /**
+     * Retrieve the code for the given country.
+     *
+     * @param  \AllDressed\Constants\Country  $country
+     * @return static
+     */
+    public static function forCountry(Country $country): static
+    {
+        return match ($country) {
+            Country::ALAND_ISLANDS => static::FI,
+            Country::CANADA => static::US,
+            Country::CHRISTMAS_ISLAND => static::AU,
+            Country::COCOS_KEELING_ISLANDS => static::AU,
+            Country::FALKLAND_ISLANDS_MALVINAS => static::GS,
+            Country::GUERNSEY => static::GB,
+            Country::ISLE_OF_MAN => static::GB,
+            Country::JERSEY => static::GB,
+            Country::MAYOTTE => static::RE,
+            Country::NORFOLK_ISLAND => static::AQ,
+            Country::PARAGUAY => static::GY,
+            Country::SAINT_BARTHELEMY => static::GP,
+            Country::SAINT_MARTIN => static::GP,
+            Country::SVALBARD_AND_JAN_MAYEN => static::NO,
+
+            default => static::all()->get($country->value),
+        };
+    }
 
     /**
      * Retrieve the country of the code.
