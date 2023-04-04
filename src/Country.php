@@ -215,6 +215,7 @@ enum Country: string
     case SOMALIA = 'SO';
     case SOUTH_AFRICA = 'ZA';
     case SOUTH_GEORGIA_AND_SANDWICH_ISL = 'GS';
+    case SOUTH_SUDAN = 'SS';
     case SPAIN = 'ES';
     case SRI_LANKA = 'LK';
     case SUDAN = 'SD';
