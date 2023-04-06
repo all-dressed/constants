@@ -16,6 +16,7 @@ enum Permission: string
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
     case CREATE_CATEGORY = 'categories:create';
+    case CREATE_CREDIT = 'credits:create';
     case CREATE_CUSTOMER = 'customers:create';
     case CREATE_DELIVERY_ZONE = 'delivery-zones:create';
     case CREATE_DISCOUNT = 'discounts:create';
