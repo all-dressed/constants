@@ -84,6 +84,7 @@ enum Permission: string
     case VIEW_PAYMENT_METHODS = 'customers:payment-methods:index';
     case VIEW_PRODUCT = 'products:show';
     case VIEW_PRODUCTS = 'products:index';
+    case VIEW_REPORTS = 'reports:index';
     case VIEW_SETTINGS = 'settings:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
