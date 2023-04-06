@@ -10,6 +10,7 @@ enum OrderStatus: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
+    case CANCELLED = 'cancelled';
     case PENDING = 'pending';
     case PAID = 'paid';
     case UPCOMING = 'upcoming';
