@@ -46,6 +46,7 @@ enum Permission: string
     case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case REFUND_ORDER = 'orders:refund';
     case UPDATE_CATEGORY = 'categories:update';
+    case UPDATE_CHOICE = 'choices:update';
     case UPDATE_CUSTOMER = 'customers:update';
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
     case UPDATE_DISCOUNT = 'discounts:update';
