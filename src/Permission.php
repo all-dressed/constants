@@ -3,12 +3,13 @@
 namespace AllDressed\Constants;
 
 use AllDressed\Constants\Concerns\AvailableAsCollection;
+use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
 use Illuminate\Support\Collection;
 
 enum Permission: string
 {
-    use AvailableAsCollection, CanBeRandomized;
+    use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
     case ACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:activate';
     case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
