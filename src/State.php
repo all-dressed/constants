@@ -12,6 +12,7 @@ enum State: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
+    case AUSTRALIAN_CAPITAL_TERRITORY = 'ACT';
     case NEW_SOUTH_WALES = 'NSW';
     case NORTHERN_TERRITORY = 'NT';
     case QUEBEC = 'QC';

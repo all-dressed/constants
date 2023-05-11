@@ -5,6 +5,7 @@ use AllDressed\Constants\State;
 
 return [
     Country::AUSTRALIA->value => [
+        State::AUSTRALIAN_CAPITAL_TERRITORY->value => 'Australian Capital Territory',
         State::NEW_SOUTH_WALES->value => 'New South Wales',
         State::NORTHERN_TERRITORY->value => 'Northern Territory',
         State::QUEENSLAND->value => 'Queensland',
