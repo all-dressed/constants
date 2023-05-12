@@ -18,7 +18,7 @@ enum State: string
     case QUEBEC = 'QC';
     case QUEENSLAND = 'QLD';
     case SOUTH_AUSTRALIA = 'SA';
-    case TASMANIA = 'TA';
+    case TASMANIA = 'TAS';
     case VICTORIA = 'VIC';
     case WESTERN_AUSTRALIA = 'WA';
 
