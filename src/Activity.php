@@ -2,7 +2,7 @@
 
 namespace AllDressed\Constants;
 
-enum Activty: string
+enum Activity: string
 {
     case ADDED_SUBSCRIPTION = 'subscriptions:new';
     case CANCELLED_SUBSCRIPTION = 'subscriptions:cancelled';
