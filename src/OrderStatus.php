@@ -13,5 +13,6 @@ enum OrderStatus: string
     case CANCELLED = 'cancelled';
     case PENDING = 'pending';
     case PAID = 'paid';
+    case REFUNDED = 'refunded';
     case UPCOMING = 'upcoming';
 }
