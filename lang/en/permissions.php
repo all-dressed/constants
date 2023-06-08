@@ -70,6 +70,7 @@ return [
     Permission::VIEW_ITEMS->value => 'View menus items index',
     Permission::VIEW_MENU->value => 'View menu',
     Permission::VIEW_MENUS->value => 'View menus index',
+    Permission::VIEW_MRR->value => 'View MRR',
     Permission::VIEW_ORDER->value => 'View order',
     Permission::VIEW_ORDERS->value => 'View orders index',
     Permission::VIEW_PACKAGE->value => 'View package',

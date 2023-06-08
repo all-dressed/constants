@@ -77,6 +77,7 @@ enum Permission: string
     case VIEW_ITEMS = 'items:index';
     case VIEW_MENU = 'menus:show';
     case VIEW_MENUS = 'menus:index';
+    case VIEW_MRR = 'mrr:show';
     case VIEW_ORDER = 'orders:show';
     case VIEW_ORDERS = 'orders:index';
     case VIEW_PACKAGE = 'packages:show';
