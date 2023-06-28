@@ -5,6 +5,7 @@ namespace AllDressed\Constants;
 use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 
@@ -52,5 +53,29 @@ enum State: string
     public function getTranslationKey(): string
     {
         return "states.{$this->getCountry()->value}.{$this->value}";
+    }
+
+    /**
+     * Renders the constant as options for a select field grouped by country.
+     *
+     * @return array
+     */
+    public static function toByCountrySelectOptions(): array
+    {
+        $array = [];
+
+        foreach (collect(static::cases()) as $constant) {
+            $country = $constant->getCountry();
+            if (! Arr::has($array, $country->value)) {
+                $array = Arr::add($array, $country->value, []);
+            }
+
+            $array[$country->value][] = [
+                'value' => $constant->value,
+                'label' => $constant->getLabel()
+            ];
+        }
+
+        return $array;
     }
 }
