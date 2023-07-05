@@ -32,9 +32,11 @@ enum State: string
         $key = "alldressed-{$this->value}-country";
 
         if (! App::has($key)) {
-            App::singleton($key, static function () {
+            App::singleton($key, function () {
                 $country = collect(Lang::get('constants::states'))->search(
-                    static fn ($states) => collect($states)->has('QLD')
+                    function ($states) {
+                        return collect($states)->has($this->value);
+                    }
                 );
 
                 return Country::from($country);
