@@ -5,7 +5,7 @@ namespace AllDressed\Constants;
 use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
-use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 
@@ -25,8 +25,6 @@ enum State: string
 
     /**
      * Retrieve the country of the state.
-     *
-     * @return \AllDressed\Constants\Country
      */
     public function getCountry(): Country
     {
@@ -47,8 +45,6 @@ enum State: string
 
     /**
      * Preprend the country for the translation key.
-     *
-     * @return string
      */
     public function getTranslationKey(): string
     {
@@ -57,25 +53,18 @@ enum State: string
 
     /**
      * Renders the constant as options for a select field grouped by country.
-     *
-     * @return array
      */
-    public static function toByCountrySelectOptions(): array
+    public static function toCountrySelectorOptions(): Collection
     {
-        $array = [];
-
-        foreach (collect(static::cases()) as $constant) {
-            $country = $constant->getCountry();
-            if (! Arr::has($array, $country->value)) {
-                $array = Arr::add($array, $country->value, []);
-            }
-
-            $array[$country->value][] = [
-                'value' => $constant->value,
-                'label' => $constant->getLabel()
-            ];
-        }
-
-        return $array;
+        return static::all()
+            ->map(function (object $item, string $key) {
+                return [
+                    'value' => $item->value,
+                    'label' => $item->getLabel(),
+                    'country' => $item->getCountry()->value
+                ];
+            })->groupBy(function (array $item, int $key) {
+                return $item['country'];
+            });
     }
 }
