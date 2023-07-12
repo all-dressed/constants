@@ -65,8 +65,6 @@ enum State: string
                     'label' => $item->getLabel(),
                     'country' => $item->getCountry()->value
                 ];
-            })->groupBy(function (array $item, int $key) {
-                return $item['country'];
-            });
+            })->groupBy('country');
     }
 }
