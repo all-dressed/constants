@@ -5,6 +5,7 @@ namespace AllDressed\Constants;
 use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
@@ -54,17 +55,17 @@ enum State: string
     }
 
     /**
-     * Renders the constant as options for a select field grouped by country.
+     * Render the constants as options for a select field grouped by country.
      */
     public static function toCountrySelectorOptions(): Collection
     {
         return static::all()
-            ->map(function (object $item, string $key) {
-                return [
-                    'value' => $item->value,
-                    'label' => $item->getLabel(),
-                    'country' => $item->getCountry()->value
-                ];
-            })->groupBy('country');
+            ->map(static fn ($state) => [
+                'country' => $state->getCountry()->value,
+                'label' => $state->getLabel(),
+                'value' => $state->value,
+            ])
+            ->groupBy('country')
+            ->map(static fn ($option) => Arr::except($option, 'country'));
     }
 }
