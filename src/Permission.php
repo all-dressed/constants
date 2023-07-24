@@ -75,6 +75,7 @@ enum Permission: string
     case VIEW_DISCOUNTS = 'discounts:index';
     case VIEW_INVOICES = 'invoices:index';
     case VIEW_ITEMS = 'items:index';
+    case VIEW_LTV = 'ltv:show';
     case VIEW_MENU = 'menus:show';
     case VIEW_MENUS = 'menus:index';
     case VIEW_MRR = 'mrr:show';
