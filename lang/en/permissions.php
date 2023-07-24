@@ -68,6 +68,7 @@ return [
     Permission::VIEW_DISCOUNTS->value => 'View discounts index',
     Permission::VIEW_INVOICES->value => 'View invoices index',
     Permission::VIEW_ITEMS->value => 'View menus items index',
+    Permission::VIEW_LTV->value => 'View LTV',
     Permission::VIEW_MENU->value => 'View menu',
     Permission::VIEW_MENUS->value => 'View menus index',
     Permission::VIEW_MRR->value => 'View MRR',
