@@ -8,6 +8,7 @@ enum Activity: string
     case CANCELLED_SUBSCRIPTION = 'subscriptions:cancelled';
     case PAUSED_SUBSCRIPTION = 'subscriptions:paused';
     case PLACED_ORDER = 'orders:new';
+    case CANCELLED_ORDER = 'orders:cancelled';
     case REACTIVATED_SUBSCRIPTION = 'subscriptions:reactived';
     case REFUNDED_ORDER = 'orders:refunded';
     case RESUMED_SUBSCRIPTION = 'subscriptions:resumed';
