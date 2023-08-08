@@ -66,6 +66,7 @@ return [
     Permission::VIEW_DELIVERY_ZONES->value => 'View delivery zones index',
     Permission::VIEW_DISCOUNT->value => 'View discount',
     Permission::VIEW_DISCOUNTS->value => 'View discounts index',
+    Permission::VIEW_INTEGRATIONS->value => 'View integrations index',
     Permission::VIEW_INVOICES->value => 'View invoices index',
     Permission::VIEW_ITEMS->value => 'View menus items index',
     Permission::VIEW_LTV->value => 'View LTV',
