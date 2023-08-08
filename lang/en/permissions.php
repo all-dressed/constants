@@ -84,6 +84,7 @@ return [
     Permission::VIEW_PRODUCTS->value => 'View product index',
     Permission::VIEW_REPORTS->value => 'View reports index',
     Permission::VIEW_SETTINGS->value => 'View profile settings index',
+    Permission::VIEW_STATEMENTS->value => 'View statements index',
     Permission::VIEW_SUBSCRIPTION->value => 'View subscription',
     Permission::VIEW_SUBSCRIPTIONS->value => 'View subscriptions index',
     Permission::VIEW_TAGS->value => 'View customers tags',
