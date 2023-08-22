@@ -74,6 +74,7 @@ enum Permission: string
     case VIEW_DISCOUNT = 'discounts:show';
     case VIEW_DISCOUNTS = 'discounts:index';
     case VIEW_INTEGRATIONS = 'integrations:index';
+    case VIEW_KLAVIYO_INTEGRATIONS = 'integrations:klaviyo:index';
     case VIEW_INVOICES = 'invoices:index';
     case VIEW_ITEMS = 'items:index';
     case VIEW_LTV = 'ltv:show';
