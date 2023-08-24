@@ -10,6 +10,7 @@ enum SearchableAttributeType: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 
+    case DATETIME = 'datetime';
     case ENUM = 'enum';
     case TEXT = 'text';
 }
