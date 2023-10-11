@@ -13,4 +13,5 @@ enum Activity: string
     case REACTIVATED_SUBSCRIPTION = 'subscriptions:reactived';
     case REFUNDED_ORDER = 'orders:refunded';
     case RESUMED_SUBSCRIPTION = 'subscriptions:resumed';
+    case SKIPPED_MENU = 'subscriptions:skipped-menu';
 }
