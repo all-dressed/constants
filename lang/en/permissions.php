@@ -10,6 +10,7 @@ return [
     Permission::CANCEL_SUBSCRIPTION->value => 'Cancel subscription',
     Permission::CREATE_API_TOKEN->value => 'Create api tokens',
     Permission::CREATE_CATEGORY->value => 'Create products categories',
+    Permission::CREATE_CHOICE->value => 'Create choices',
     Permission::CREATE_CREDIT->value => 'Create credits',
     Permission::CREATE_CUSTOMER->value => 'Create customers',
     Permission::CREATE_DELIVERY_ZONE->value => 'Create delivey zones',
