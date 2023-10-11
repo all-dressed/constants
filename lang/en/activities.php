@@ -12,5 +12,5 @@ return [
     Activity::REACTIVATED_SUBSCRIPTION->value => ':name has reactivated a subscription.',
     Activity::REFUNDED_ORDER->value => ':name has received a refund of :amount :currency.',
     Activity::RESUMED_SUBSCRIPTION->value => ':name has resumed a subscription.',
-    Activity::SKIPPED_MENU->value => ':name has skipped a menu for :subscription on :date.',
+    Activity::SKIPPED_MENU->value => ':name has skipped the delivery of :date for :subscription.',
 ];
