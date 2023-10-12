@@ -2,8 +2,12 @@
 
 namespace AllDressed\Constants;
 
+use AllDressed\Constants\Concerns\CanBeRandomized;
+
 enum Activity: string
 {
+    use CanBeRandomized;
+
     case ADDED_SUBSCRIPTION = 'subscriptions:new';
     case CANCELLED_ORDER = 'orders:cancelled';
     case CANCELLED_SUBSCRIPTION = 'subscriptions:cancelled';
