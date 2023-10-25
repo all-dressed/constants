@@ -8,6 +8,7 @@ enum Activity: string
 {
     use CanBeRandomized;
 
+    case ACTIVATED_GIFT_CARD = 'gift-cards:activated';
     case ADDED_SUBSCRIPTION = 'subscriptions:new';
     case CANCELLED_ORDER = 'orders:cancelled';
     case CANCELLED_SUBSCRIPTION = 'subscriptions:cancelled';
