@@ -15,6 +15,7 @@ return [
     Permission::CREATE_CUSTOMER->value => 'Create customers',
     Permission::CREATE_DELIVERY_ZONE->value => 'Create delivey zones',
     Permission::CREATE_DISCOUNT->value => 'Create discounts',
+    Permission::CREATE_GIFT_CARD->value => 'Create gift cards',
     Permission::CREATE_MENU->value => 'Create menus',
     Permission::CREATE_NOTE->value => 'Create orders notes',
     Permission::CREATE_PAYMENT_GATEWAY->value => 'Create payment gateways',
