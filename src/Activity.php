@@ -20,4 +20,5 @@ enum Activity: string
     case RESUMED_SUBSCRIPTION = 'subscriptions:resumed';
     case SENT_GIFT_CARD = 'gift-cards:sent';
     case SKIPPED_MENU = 'subscriptions:skipped-menu';
+    case UNSKIPPED_MENU = 'subscriptions:unskipped-menu';
 }
