@@ -95,4 +95,6 @@ return [
     Permission::VIEW_TAGS->value => 'View customers tags',
     Permission::VIEW_TEAM->value => 'View team member',
     Permission::VIEW_TEAMS->value => 'View teams index',
+    Permission::VIEW_WEBHOOK->value => 'View webhook',
+    Permission::VIEW_WEBHOOKS->value => 'Vieww webhooks index',
 ];
