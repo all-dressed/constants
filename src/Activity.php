@@ -17,6 +17,7 @@ enum Activity: string
     case PLACED_ORDER = 'orders:new';
     case REACTIVATED_SUBSCRIPTION = 'subscriptions:reactived';
     case REFUNDED_ORDER = 'orders:refunded';
+    case REMOVED_PACKAGE_PRODUCT = 'packages:removed-product';
     case RESUMED_SUBSCRIPTION = 'subscriptions:resumed';
     case SENT_GIFT_CARD = 'gift-cards:sent';
     case SKIPPED_MENU = 'subscriptions:skipped-menu';
