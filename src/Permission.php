@@ -102,6 +102,8 @@ enum Permission: string
     case VIEW_TAGS = 'tags:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
+    case VIEW_WEBHOOK = 'webhooks:show';
+    case VIEW_WEBHOOKS = 'webhooks:index';
 
     /**
      * Retrieve all the permissions as a collection.
