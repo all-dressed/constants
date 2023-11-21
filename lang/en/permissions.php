@@ -26,6 +26,7 @@ return [
     Permission::CREATE_TAG->value => 'Create customers tags',
     Permission::CREATE_TEAM->value => 'Create teams',
     Permission::CREATE_TRANSACTION->value => 'Create transaction',
+    Permission::CREATE_WEBHOOK->value => 'Create Webhook',
     Permission::DEACTIVATE_DELIVERY_SCHEDULE->value => 'Deactivate delivery schedule',
     Permission::DEACTIVATE_DELIVERY_ZONE->value => 'Deactivate delivery zone',
     Permission::DELETE_API_TOKEN->value => 'Delete api tokens',
