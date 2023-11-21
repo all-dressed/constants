@@ -48,6 +48,7 @@ enum Permission: string
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
     case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
+    case PURGE_GIFT_CARD = 'gift-cards:purge';
     case GENERATE_REPORTS = 'reports:generate';
     case REFUND_ORDER = 'orders:refund';
     case UPDATE_CATEGORY = 'categories:update';

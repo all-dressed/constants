@@ -41,6 +41,7 @@ return [
     Permission::DELETE_TEAM->value => 'Delete teams',
     Permission::GENERATE_BECOOL_MANIFEST->value => 'Generate becool manifest',
     Permission::GENERATE_REPORTS->value => 'Generate reports',
+    Permission::PURGE_GIFT_CARD->value => 'Purge gift cards',
     Permission::REFUND_ORDER->value => 'Refund order',
     Permission::UPDATE_CATEGORY->value => 'Update products categories',
     Permission::UPDATE_CHOICE->value => 'Update subscriptions choices',
