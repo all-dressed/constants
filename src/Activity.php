@@ -2,11 +2,12 @@
 
 namespace AllDressed\Constants;
 
+use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
 
 enum Activity: string
 {
-    use CanBeRandomized;
+    use AvailableAsOptions, CanBeRandomized;
 
     case ACTIVATED_GIFT_CARD = 'gift-cards:activated';
     case ADDED_SUBSCRIPTION = 'subscriptions:new';
