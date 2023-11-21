@@ -65,6 +65,7 @@ enum Permission: string
     case UPADTE_SETTING = 'settings:update';
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
+    case UPDATE_WEBHOOK = 'webhooks:update';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
     case VIEW_CHOICES = 'choices:index';
