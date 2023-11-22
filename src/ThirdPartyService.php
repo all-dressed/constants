@@ -6,4 +6,5 @@ enum ThirdPartyService: string
 {
     case BECOOL = 'becool';
     case KLAVIYO = 'klaviyo';
+    case NETSUITE = 'netsuite';
 }
