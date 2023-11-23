@@ -67,6 +67,7 @@ enum Permission: string
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
+    case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
     case VIEW_CHOICES = 'choices:index';
