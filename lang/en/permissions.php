@@ -60,6 +60,7 @@ return [
     Permission::UPDATE_SUBSCRIPTION->value => 'Update subscriptions',
     Permission::UPDATE_TEAM->value => 'Update team',
     Permission::UPDATE_WEBHOOK->value => 'Update webhook',
+    Permission::VIEW_BECOOL_INTEGRATIONS->value => 'View BeCool integrations index',
     Permission::VIEW_CATEGORY->value => 'View category',
     Permission::VIEW_CATEGORIES->value => 'View categories index',
     Permission::VIEW_CHOICES->value => 'View subscriptions choices index',
