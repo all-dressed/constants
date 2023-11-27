@@ -39,6 +39,7 @@ return [
     Permission::DELETE_PAYMENT_METHOD->value => 'Delete customers payment methods',
     Permission::DELETE_PRODUCT->value => 'Delete products',
     Permission::DELETE_TEAM->value => 'Delete teams',
+    Permission::DELETE_WEBHOOK->value => 'Delete webhooks',
     Permission::GENERATE_BECOOL_MANIFEST->value => 'Generate becool manifest',
     Permission::GENERATE_REPORTS->value => 'Generate reports',
     Permission::PURGE_GIFT_CARD->value => 'Purge gift cards',
