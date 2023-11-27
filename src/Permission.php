@@ -47,6 +47,7 @@ enum Permission: string
     case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
+    case DELETE_WEBHOOK = 'webhooks:delete';
     case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case PURGE_GIFT_CARD = 'gift-cards:purge';
     case GENERATE_REPORTS = 'reports:generate';
