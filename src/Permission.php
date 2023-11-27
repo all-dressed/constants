@@ -72,6 +72,7 @@ enum Permission: string
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
+    case VIEW_BECOOL_INTEGRATION = 'integration:becool:index';
     case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
@@ -86,14 +87,17 @@ enum Permission: string
     case VIEW_DISCOUNTS = 'discounts:index';
     case VIEW_GIFT_CARD = 'gift-cards:show';
     case VIEW_GIFT_CARDS = 'gift-cards:index';
+    case VIEW_INTEGRATION = 'integration:index';
     case VIEW_INTEGRATIONS = 'integrations:index';
     case VIEW_INVOICES = 'invoices:index';
+    case VIEW_KLAVIYO_INTEGRATION = 'integration:klaviyo:index';
     case VIEW_KLAVIYO_INTEGRATIONS = 'integrations:klaviyo:index';
     case VIEW_ITEMS = 'items:index';
     case VIEW_LTV = 'ltv:show';
     case VIEW_MENU = 'menus:show';
     case VIEW_MENUS = 'menus:index';
     case VIEW_MRR = 'mrr:show';
+    case VIEW_NETSUITE_INTEGRATION = 'integration:netsuite:index';
     case VIEW_NETSUITE_INTEGRATIONS = 'integrations:netsuite:index';
     case VIEW_ORDER = 'orders:show';
     case VIEW_ORDERS = 'orders:index';
