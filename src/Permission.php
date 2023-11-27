@@ -17,6 +17,7 @@ enum Permission: string
     case CANCEL_ORDER = 'orders:cancel';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
+    case CREATE_BECOOL_INTEGRATION = 'integrations:becool:create';
     case CREATE_CATEGORY = 'categories:create';
     case CREATE_CHOICE = 'choices:create';
     case CREATE_CREDIT = 'credits:create';
@@ -24,7 +25,10 @@ enum Permission: string
     case CREATE_DELIVERY_ZONE = 'delivery-zones:create';
     case CREATE_DISCOUNT = 'discounts:create';
     case CREATE_GIFT_CARD = 'gift-cards:create';
+    case CREATE_INTEGRATION = 'integrations:create';
+    case CREATE_KLAVIYO_INTEGRATION = 'integrations:klaviyo:create';
     case CREATE_MENU = 'menus:create';
+    case CREATE_NETSUITE_INTEGRATION = 'integrations:netsuite:create';
     case CREATE_NOTE = 'notes:create';
     case CREATE_PAYMENT_GATEWAY = 'gateways:create';
     case CREATE_PAYMENT_METHOD = 'customers:payment-methods:create';
@@ -68,6 +72,7 @@ enum Permission: string
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
+    case VIEW_BECOOL_INTEGRATION = 'integration:becool:index';
     case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
@@ -82,14 +87,17 @@ enum Permission: string
     case VIEW_DISCOUNTS = 'discounts:index';
     case VIEW_GIFT_CARD = 'gift-cards:show';
     case VIEW_GIFT_CARDS = 'gift-cards:index';
+    case VIEW_INTEGRATION = 'integration:index';
     case VIEW_INTEGRATIONS = 'integrations:index';
     case VIEW_INVOICES = 'invoices:index';
+    case VIEW_KLAVIYO_INTEGRATION = 'integration:klaviyo:index';
     case VIEW_KLAVIYO_INTEGRATIONS = 'integrations:klaviyo:index';
     case VIEW_ITEMS = 'items:index';
     case VIEW_LTV = 'ltv:show';
     case VIEW_MENU = 'menus:show';
     case VIEW_MENUS = 'menus:index';
     case VIEW_MRR = 'mrr:show';
+    case VIEW_NETSUITE_INTEGRATION = 'integration:netsuite:index';
     case VIEW_NETSUITE_INTEGRATIONS = 'integrations:netsuite:index';
     case VIEW_ORDER = 'orders:show';
     case VIEW_ORDERS = 'orders:index';
