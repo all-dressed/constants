@@ -17,6 +17,7 @@ enum Permission: string
     case CANCEL_ORDER = 'orders:cancel';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
+    case CREATE_BECOOL_INTEGRATION = 'integrations:becool:create';
     case CREATE_CATEGORY = 'categories:create';
     case CREATE_CHOICE = 'choices:create';
     case CREATE_CREDIT = 'credits:create';
@@ -24,7 +25,10 @@ enum Permission: string
     case CREATE_DELIVERY_ZONE = 'delivery-zones:create';
     case CREATE_DISCOUNT = 'discounts:create';
     case CREATE_GIFT_CARD = 'gift-cards:create';
+    case CREATE_INTEGRATION = 'integrations:create';
+    case CREATE_KLAVIYO_INTEGRATION = 'integrations:klaviyo:create';
     case CREATE_MENU = 'menus:create';
+    case CREATE_NETSUITE_INTEGRATION = 'integrations:netsuite:create';
     case CREATE_NOTE = 'notes:create';
     case CREATE_PAYMENT_GATEWAY = 'gateways:create';
     case CREATE_PAYMENT_METHOD = 'customers:payment-methods:create';
