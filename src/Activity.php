@@ -16,6 +16,7 @@ enum Activity: string
     case FAILED_SUBSCRIPTION_PAYMENT = 'subscriptions:failed-payment';
     case PAUSED_SUBSCRIPTION = 'subscriptions:paused';
     case PLACED_ORDER = 'orders:new';
+    case PURCHASED_GIFT_CARD = 'gift-cards:purchased';
     case REACTIVATED_SUBSCRIPTION = 'subscriptions:reactived';
     case REFUNDED_ORDER = 'orders:refunded';
     case REMOVED_PACKAGE_PRODUCT = 'packages:removed-product';
