@@ -68,7 +68,7 @@ enum Permission: string
     case UPDATE_PAYMENT_GATEWAY = 'gateways:update';
     case UPDATE_PAYMENT_METHOD = 'customers:payment-methods:update';
     case UPDATE_PRODUCT = 'products:update';
-    case UPADTE_SETTING = 'settings:update';
+    case UPDATE_SETTING = 'settings:update';
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
