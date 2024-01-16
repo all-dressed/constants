@@ -61,7 +61,7 @@ return [
     Permission::DELETE_PAYMENT_GATEWAY->value => 'Update payment gateways',
     Permission::UPDATE_PAYMENT_METHOD->value => 'Update customers payment methods',
     Permission::UPDATE_PRODUCT->value => 'Update products',
-    Permission::UPADTE_SETTING->value => 'Update profile settings',
+    Permission::UPDATE_SETTING->value => 'Update profile settings',
     Permission::UPDATE_SUBSCRIPTION->value => 'Update subscriptions',
     Permission::UPDATE_TEAM->value => 'Update team',
     Permission::UPDATE_WEBHOOK->value => 'Update webhook',
