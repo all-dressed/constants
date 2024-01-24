@@ -7,7 +7,7 @@ use AllDressed\Constants\Concerns\HasTranslation;
 
 enum ThirdPartyService: string
 {
-    use HasTranslation, CanBeRandomized;
+    use CanBeRandomized, HasTranslation;
 
     case BECOOL = 'becool';
     case KLAVIYO = 'klaviyo';
