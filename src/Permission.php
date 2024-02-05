@@ -17,7 +17,6 @@ enum Permission: string
     case CANCEL_ORDER = 'orders:cancel';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
     case CREATE_API_TOKEN = 'tokens:api:create';
-    case CREATE_GIFT_CARD_BATCH = 'gift-cards:batches:create';
     case CREATE_BECOOL_INTEGRATION = 'integrations:becool:create';
     case CREATE_CATEGORY = 'categories:create';
     case CREATE_CHOICE = 'choices:create';
@@ -26,6 +25,7 @@ enum Permission: string
     case CREATE_DELIVERY_ZONE = 'delivery-zones:create';
     case CREATE_DISCOUNT = 'discounts:create';
     case CREATE_GIFT_CARD = 'gift-cards:create';
+    case CREATE_GIFT_CARD_BATCH = 'gift-cards:batches:create';
     case CREATE_INTEGRATION = 'integrations:create';
     case CREATE_KLAVIYO_INTEGRATION = 'integrations:klaviyo:create';
     case CREATE_MENU = 'menus:create';
@@ -43,10 +43,10 @@ enum Permission: string
     case DEACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:deactivate';
     case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
     case DELETE_API_TOKEN = 'tokens:api:delete';
-    case DELETE_GIFT_CARD_BATCH = 'gift-cards:batches:delete';
     case DELETE_CATEGORY = 'categories:delete';
     case DELETE_CUSTOMER = 'customers:delete';
     case DELETE_DISCOUNT = 'discounts:delete';
+    case DELETE_GIFT_CARD_BATCH = 'gift-cards:batches:delete';
     case DELETE_MENU = 'menus:delete';
     case DELETE_PACKAGE = 'packages:delete';
     case DELETE_PAYMENT_GATEWAY = 'gateways:delete';
@@ -58,13 +58,13 @@ enum Permission: string
     case PURGE_GIFT_CARD = 'gift-cards:purge';
     case GENERATE_REPORTS = 'reports:generate';
     case REFUND_ORDER = 'orders:refund';
-    case UPDATE_GIFT_CARD_BATCH = 'gift-cards:batches:update';
     case UPDATE_CATEGORY = 'categories:update';
     case UPDATE_CHOICE = 'choices:update';
     case UPDATE_CUSTOMER = 'customers:update';
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
     case UPDATE_DISCOUNT = 'discounts:update';
     case UPDATE_DISCOUNT_CHOICE = 'discounts:choices:update';
+    case UPDATE_GIFT_CARD_BATCH = 'gift-cards:batches:update';
     case UPDATE_MENU = 'menus:update';
     case UPDATE_ORDER = 'orders:update';
     case UPDATE_PACKAGE = 'packages:update';
@@ -76,8 +76,6 @@ enum Permission: string
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
     case VIEW_API_KEYS = 'tokens:api:index';
-    case VIEW_GIFT_CARD_BATCH = 'gift-cards:batches:show';
-    case VIEW_GIFT_CARD_BATCHES = 'gift-cards:batches:index';
     case VIEW_BECOOL_INTEGRATION = 'integration:becool:index';
     case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
     case VIEW_CATEGORY = 'categories:show';
@@ -92,6 +90,8 @@ enum Permission: string
     case VIEW_DISCOUNT = 'discounts:show';
     case VIEW_DISCOUNTS = 'discounts:index';
     case VIEW_GIFT_CARD = 'gift-cards:show';
+    case VIEW_GIFT_CARD_BATCH = 'gift-cards:batches:show';
+    case VIEW_GIFT_CARD_BATCHES = 'gift-cards:batches:index';
     case VIEW_GIFT_CARDS = 'gift-cards:index';
     case VIEW_INTEGRATION = 'integration:index';
     case VIEW_INTEGRATIONS = 'integrations:index';
