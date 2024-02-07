@@ -54,7 +54,7 @@ enum Permission: string
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
     case DELETE_WEBHOOK = 'webhooks:delete';
-    case EXPORT_CUSTOMERS_EMAIL = 'customers:emails:export';
+    case EXPORT_CUSTOMERS_EMAIL = 'customers:export:email';
     case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case PURGE_GIFT_CARD = 'gift-cards:purge';
     case GENERATE_REPORTS = 'reports:generate';
