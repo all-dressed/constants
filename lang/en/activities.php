@@ -9,7 +9,10 @@ return [
     Activity::CANCELLED_SUBSCRIPTION->value => ':name has cancelled a subscription.',
     Activity::FAILED_PAYMENT->value => ':name has failed a payment.',
     Activity::PAUSED_SUBSCRIPTION->value => ':name has paused a subscription.',
-    Activity::PLACED_ORDER->value => ':name has placed a new order of :amount :currency.',
+    Activity::PLACED_ORDER->value => [
+        'customer' => ':name has placed a new order of :amount :currency.',
+        'user' => ':name has placed a new order of :amount :currency for :customer.',
+    ],
     Activity::PURCHASED_GIFT_CARD->value => ':name has purchased a gift card (:code) of :value :currency.',
     Activity::REACTIVATED_SUBSCRIPTION->value => ':name has reactivated a subscription.',
     Activity::REFUNDED_ORDER->value => ':name has received a refund of :amount :currency.',
