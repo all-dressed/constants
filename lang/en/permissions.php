@@ -86,7 +86,7 @@ return [
     Permission::VIEW_GIFT_CARD => 'View gift card',
     Permission::VIEW_GIFT_CARD_BATCH->value => 'View gift card batch',
     Permission::VIEW_GIFT_CARD_BATCHES->value => 'View gift cards batches index',
-    Permission::VIEW_GIFT_CARDS => 'View gift cards index',
+    Permission::VIEW_GIFT_CARDS->value => 'View gift cards index',
     Permission::VIEW_INTEGRATION->value => 'View integration',
     Permission::VIEW_INTEGRATIONS->value => 'View integrations index',
     Permission::VIEW_INVOICES->value => 'View invoices index',
