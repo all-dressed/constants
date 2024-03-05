@@ -83,7 +83,7 @@ return [
     Permission::VIEW_DELIVERY_ZONES->value => 'View delivery zones index',
     Permission::VIEW_DISCOUNT->value => 'View discount',
     Permission::VIEW_DISCOUNTS->value => 'View discounts index',
-    Permission::VIEW_GIFT_CARD => 'View gift card',
+    Permission::VIEW_GIFT_CARD->value => 'View gift card',
     Permission::VIEW_GIFT_CARD_BATCH->value => 'View gift card batch',
     Permission::VIEW_GIFT_CARD_BATCHES->value => 'View gift cards batches index',
     Permission::VIEW_GIFT_CARDS->value => 'View gift cards index',
