@@ -54,6 +54,7 @@ enum Permission: string
     case DELETE_PRODUCT = 'products:delete';
     case DELETE_TEAM = 'teams:delete';
     case DELETE_WEBHOOK = 'webhooks:delete';
+    case DELETE_USER = 'users:delete';
     case EXPORT_CUSTOMERS_EMAIL = 'customers:export:email';
     case GENERATE_BECOOL_MANIFEST = 'integrations:becool:generate';
     case PURGE_GIFT_CARD = 'gift-cards:purge';
@@ -76,6 +77,7 @@ enum Permission: string
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
+    case UPDATE_USER = 'users:update';
     case VIEW_API_KEYS = 'tokens:api:index';
     case VIEW_BECOOL_INTEGRATION = 'integration:becool:index';
     case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
@@ -125,6 +127,8 @@ enum Permission: string
     case VIEW_TEAMS = 'teams:index';
     case VIEW_WEBHOOK = 'webhooks:show';
     case VIEW_WEBHOOKS = 'webhooks:index';
+    case VIEW_USER = 'users:show';
+    case VIEW_USERS = 'users:index';
 
     /**
      * Retrieve all the permissions as a collection.
