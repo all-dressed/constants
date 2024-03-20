@@ -111,6 +111,8 @@ return [
     Permission::VIEW_PRODUCT->value => 'View product',
     Permission::VIEW_PRODUCTS->value => 'View product index',
     Permission::VIEW_REPORTS->value => 'View reports index',
+    Permission::VIEW_REFERRAL_CODE->value => 'View referral code',
+    Permission::VIEW_REFERRAL_CODES->value => 'View referral codes index',
     Permission::VIEW_SETTINGS->value => 'View profile settings index',
     Permission::VIEW_STATEMENTS->value => 'View statements index',
     Permission::VIEW_SUBSCRIPTION->value => 'View subscription',
