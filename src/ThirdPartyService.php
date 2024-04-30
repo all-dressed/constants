@@ -10,7 +10,7 @@ enum ThirdPartyService: string
     use CanBeRandomized, HasTranslation;
 
     case BECOOL = 'becool';
-    case GLEEN = 'gleen';
+    case GLEEN_AI = 'gleen ai';
     case KLAVIYO = 'klaviyo';
     case NETSUITE = 'netsuite';
 }
