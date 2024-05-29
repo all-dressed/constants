@@ -118,6 +118,7 @@ enum Permission: string
     case VIEW_PRODUCT = 'products:show';
     case VIEW_PRODUCTS = 'products:index';
     case VIEW_REPORTS = 'reports:index';
+    case VIEW_REVENUE = 'revenue:show';
     case VIEW_SETTINGS = 'settings:index';
     case VIEW_STATEMENTS = 'statements:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
