@@ -9,6 +9,6 @@ enum NetSuiteMappableField: string
 {
     use CanBeRandomized, HasTranslation;
 
-    case TRANSACTION_IDENTIFIER = 'transaction.identifier';
     case GATEWAY_LABEL = 'gateway.label';
+    case TRANSACTION_IDENTIFIER = 'transaction.identifier';
 }
