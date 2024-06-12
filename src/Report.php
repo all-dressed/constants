@@ -10,4 +10,5 @@ enum Report: string
     use AvailableAsCollection, CanBeRandomized;
 
     case BC_ITEMS_SOLD = 'bc-items-sold';
+    case SUBSCRIPTIONS = 'subscriptions';
 }
