@@ -11,4 +11,6 @@ enum Report: string
 
     case BC_ITEMS_SOLD = 'bc-items-sold';
     case SUBSCRIPTIONS = 'subscriptions';
+    case SALES = 'sales';
+    case PRODUCTS = 'products';
 }
