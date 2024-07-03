@@ -9,6 +9,6 @@ enum ReportFilter: string
 {
     use AvailableAsCollection, CanBeRandomized;
 
-    case DELIVERY_DATE = 'delivery_date';
-    case INVOICE_DATE = 'invoice_date';
+    case DELIVERY_DATE = 'delivery-date';
+    case INVOICE_DATE = 'invoice-date';
 }
