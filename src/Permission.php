@@ -31,6 +31,7 @@ enum Permission: string
     case CREATE_MENU = 'menus:create';
     case CREATE_NETSUITE_INTEGRATION = 'integrations:netsuite:create';
     case CREATE_NOTE = 'notes:create';
+    case CREATE_ORDER = 'orders:create';
     case CREATE_PAYMENT_GATEWAY = 'gateways:create';
     case CREATE_PAYMENT_METHOD = 'customers:payment-methods:create';
     case CREATE_PRODUCT = 'products:create';
