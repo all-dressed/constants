@@ -82,11 +82,13 @@ enum Permission: string
     case VIEW_API_KEYS = 'tokens:api:index';
     case VIEW_BECOOL_INTEGRATION = 'integration:becool:index';
     case VIEW_BECOOL_INTEGRATIONS = 'integrations:becool:index';
+    case VIEW_CANCELLED_SUBSCRIPTIONS_STAT = 'subscriptions:stats:cancelled:show';
     case VIEW_CATEGORY = 'categories:show';
     case VIEW_CATEGORIES = 'categories:index';
     case VIEW_CHOICES = 'choices:index';
     case VIEW_CUSTOMER = 'customers:show';
     case VIEW_CUSTOMERS = 'customers:index';
+    case VIEW_CUSTOMERS_CHURN = 'customers:churn:show';
     case VIEW_DELIVERY_SCHEDULE = 'delivery-schedules:show';
     case VIEW_DELIVERY_SCHEDULES = 'delivery-schedules:index';
     case VIEW_DELIVERY_ZONE = 'delivery-zones:show';
@@ -109,6 +111,7 @@ enum Permission: string
     case VIEW_MRR = 'mrr:show';
     case VIEW_NETSUITE_INTEGRATION = 'integration:netsuite:index';
     case VIEW_NETSUITE_INTEGRATIONS = 'integrations:netsuite:index';
+    case VIEW_NEW_SUBSCRIPTIONS_STAT = 'subscriptions:stats:new:show';
     case VIEW_ORDER = 'orders:show';
     case VIEW_ORDERS = 'orders:index';
     case VIEW_PACKAGE = 'packages:show';
@@ -124,6 +127,8 @@ enum Permission: string
     case VIEW_STATEMENTS = 'statements:index';
     case VIEW_SUBSCRIPTION = 'subscriptions:show';
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
+    case VIEW_SUBSCRIPTIONS_BY_STATUS_STAT = 'subscriptions:stats:status:show';
+    case VIEW_SUBSCRIPTIONS_CHURN = 'subscriptions:churn:show';
     case VIEW_TAGS = 'tags:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
