@@ -88,6 +88,7 @@ enum Permission: string
     case VIEW_CHOICES = 'choices:index';
     case VIEW_CUSTOMER = 'customers:show';
     case VIEW_CUSTOMERS = 'customers:index';
+    case VIEW_CUSTOMERS_LTV = 'customers:ltv:show';
     case VIEW_CUSTOMERS_CHURN = 'customers:churn:show';
     case VIEW_DELIVERY_SCHEDULE = 'delivery-schedules:show';
     case VIEW_DELIVERY_SCHEDULES = 'delivery-schedules:index';
@@ -129,6 +130,7 @@ enum Permission: string
     case VIEW_SUBSCRIPTIONS = 'subscriptions:index';
     case VIEW_SUBSCRIPTIONS_BY_STATUS_STAT = 'subscriptions:stats:status:show';
     case VIEW_SUBSCRIPTIONS_CHURN = 'subscriptions:churn:show';
+    case VIEW_SUBSCRIPTIONS_LTV = 'subscriptions:ltv:show';
     case VIEW_TAGS = 'tags:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
