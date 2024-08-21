@@ -12,5 +12,6 @@ enum ThirdPartyService: string
     case BECOOL = 'becool';
     case GLEEN_AI = 'gleen-ai';
     case KLAVIYO = 'klaviyo';
+    case LEGACY_CUSTOMER_NOTES = 'legacy-customer-notes';
     case NETSUITE = 'netsuite';
 }
