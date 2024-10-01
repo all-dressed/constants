@@ -13,6 +13,7 @@ enum Activity: string
     case ADDED_SUBSCRIPTION = 'subscriptions:new';
     case CANCELLED_ORDER = 'orders:cancelled';
     case CANCELLED_SUBSCRIPTION = 'subscriptions:cancelled';
+    case DELETED_CUSTOMER = 'customers:deleted';
     case DISCONTINUED_PRODUCT = 'products:discontinued';
     case FAILED_PAYMENT = 'customers:failed-payment';
     case PAUSED_SUBSCRIPTION = 'subscriptions:paused';

@@ -7,6 +7,7 @@ return [
     Activity::ADDED_SUBSCRIPTION->value => ':name has added a new subscription.',
     Activity::CANCELLED_ORDER->value => ':name has cancelled an order.',
     Activity::CANCELLED_SUBSCRIPTION->value => ':name has cancelled a subscription.',
+    Activity::DELETED_CUSTOMER->value => ':name has deleted :customer\'s profile',
     Activity::FAILED_PAYMENT->value => ':name has failed a payment.',
     Activity::PAUSED_SUBSCRIPTION->value => ':name has paused a subscription.',
     Activity::PLACED_ORDER->value => [
