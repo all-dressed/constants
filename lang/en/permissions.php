@@ -79,6 +79,7 @@ return [
     Permission::VIEW_CHOICES->value => 'View subscriptions choices index',
     Permission::VIEW_CUSTOMER->value => 'View customer',
     Permission::VIEW_CUSTOMERS->value => 'View customers index',
+    Permission::VIEW_CUSTOMERS_LTV->value => 'View customers LTV',
     Permission::VIEW_DELIVERY_SCHEDULE->value => 'View delivery schedule',
     Permission::VIEW_DELIVERY_SCHEDULES->value => 'View delivery schedules index',
     Permission::VIEW_DELIVERY_ZONE->value => 'View delivery zone',
