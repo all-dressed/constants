@@ -13,6 +13,7 @@ enum Permission: string
 
     case ACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:activate';
     case ACTIVATE_DELIVERY_ZONE = 'delivery-zones:activate';
+    case ACTIVATE_DISCOUNT = 'discounts:activate';
     case BILL_SUBSCRIPTION = 'subscriptions:bill';
     case CANCEL_ORDER = 'orders:cancel';
     case CANCEL_SUBSCRIPTION = 'subscriptions:cancel';
@@ -43,6 +44,7 @@ enum Permission: string
     case CREATE_WEBHOOK = 'webhooks:create';
     case DEACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:deactivate';
     case DEACTIVATE_DELIVERY_ZONE = 'delivery-zones:deactivate';
+    case DEACTIVATE_DISCOUNT = 'discounts:deactivate';
     case DELETE_API_TOKEN = 'tokens:api:delete';
     case DELETE_CATEGORY = 'categories:delete';
     case DELETE_CUSTOMER = 'customers:delete';
