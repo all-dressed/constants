@@ -5,6 +5,7 @@ use AllDressed\Constants\Permission;
 return [
     Permission::ACTIVATE_DELIVERY_SCHEDULE->value => 'Activate delivery schedule',
     Permission::ACTIVATE_DELIVERY_ZONE->value => 'Activate delivery zone',
+    Permission::ACTIVATE_DISCOUNT->value => 'Activate discounts',
     Permission::BILL_SUBSCRIPTION->value => 'Bill subscription',
     Permission::CANCEL_ORDER->value => 'Cancel order',
     Permission::CANCEL_SUBSCRIPTION->value => 'Cancel subscription',
@@ -34,6 +35,7 @@ return [
     Permission::CREATE_WEBHOOK->value => 'Create Webhook',
     Permission::DEACTIVATE_DELIVERY_SCHEDULE->value => 'Deactivate delivery schedule',
     Permission::DEACTIVATE_DELIVERY_ZONE->value => 'Deactivate delivery zone',
+    Permission::DEACTIVATE_DISCOUNT->value => 'Deactivate discounts',
     Permission::DELETE_API_TOKEN->value => 'Delete api tokens',
     Permission::DELETE_CATEGORY->value => 'Delete products categories',
     Permission::DELETE_CUSTOMER->value => 'Delete customers',
