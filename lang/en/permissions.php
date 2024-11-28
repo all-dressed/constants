@@ -60,6 +60,7 @@ return [
     Permission::UPDATE_DELIVERY_ZONE->value => 'Update delivery zones',
     Permission::UPDATE_DISCOUNT->value => 'Update discounts',
     Permission::UPDATE_DISCOUNT_CHOICE->value => 'Update discount choices',
+    Permission::UPDATE_GIFT_CARD->value => 'Update gift cards',
     Permission::UPDATE_GIFT_CARD_BATCH->value => 'Update gift cards batches',
     Permission::UPDATE_PAYMENT_GATEWAY->value => 'Update payment gateway',
     Permission::UPDATE_MENU->value => 'Update menus',

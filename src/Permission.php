@@ -69,6 +69,7 @@ enum Permission: string
     case UPDATE_DELIVERY_ZONE = 'delivery-zones:update';
     case UPDATE_DISCOUNT = 'discounts:update';
     case UPDATE_DISCOUNT_CHOICE = 'discounts:choices:update';
+    case UPDATE_GIFT_CARD = 'gift-cards:update';
     case UPDATE_GIFT_CARD_BATCH = 'gift-cards:batches:update';
     case UPDATE_MENU = 'menus:update';
     case UPDATE_ORDER = 'orders:update';
