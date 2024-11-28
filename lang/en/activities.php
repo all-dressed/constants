@@ -22,4 +22,18 @@ return [
     Activity::SKIPPED_MENU->value => ':name has skipped the delivery of :date for :subscription.',
     Activity::UNSKIPPED_MENU->value => ':name has unskipped the delivery of :date for :subscription.',
     Activity::UPDATED_CUSTOMER->value => ':name has updated :customer\'s profile',
+    'title' => [
+        Activity::ADDED_SUBSCRIPTION->value => 'New subscription',
+        Activity::CANCELLED_ORDER->value => 'Cancelled order',
+        Activity::CANCELLED_SUBSCRIPTION->value => 'Cancelled subscription',
+        Activity::FAILED_PAYMENT->value => 'Payment refused',
+        Activity::PAUSED_SUBSCRIPTION->value => 'Paused subscription',
+        Activity::PLACED_ORDER->value => [
+            'customer' => 'New purchase',
+            'user' => 'New purchase',
+        ],
+        Activity::REACTIVATED_SUBSCRIPTION->value => 'Reactivated subscription',
+        Activity::REFUNDED_ORDER->value => 'Refunded order',
+        Activity::RESUMED_SUBSCRIPTION->value => 'Resumed subscription.',
+    ]
 ];
