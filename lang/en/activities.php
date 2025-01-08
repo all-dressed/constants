@@ -21,5 +21,6 @@ return [
     Activity::SENT_GIFT_CARD->value => 'The gift card :code has been sent to :email.',
     Activity::SKIPPED_MENU->value => ':name has skipped the delivery of :date for :subscription.',
     Activity::UNSKIPPED_MENU->value => ':name has unskipped the delivery of :date for :subscription.',
+    Activity::UPDATED_CREDITS->value => ':name has a new credits balance of :amount :currency.',
     Activity::UPDATED_CUSTOMER->value => ':name has updated :customer\'s profile',
 ];
