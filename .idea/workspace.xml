@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78f91c63-3d41-4112-a86e-70184536b1ea" name="Changes" comment="" />
+    <list default="true" id="78f91c63-3d41-4112-a86e-70184536b1ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lang/en/canada-states.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AustraliaState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CanadaState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/en/states.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/en/australia-states.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/State.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +62,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/country-states",
+    "last_opened_file_path": "/Users/swoo/Projects/constants/lang/en",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +73,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lang/en" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
