@@ -1,4 +1,4 @@
-states.php<?php
+<?php
 
 use AllDressed\Constants\CanadaState;
 
