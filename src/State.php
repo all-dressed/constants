@@ -27,7 +27,7 @@ enum State: string
     {
         return static::all()
             ->map(static fn ($state) => [
-                'country' => $state->getCountry()->value,
+                'country' => $state->getCountry(),
                 'label' => $state->getLabel(),
                 'value' => $state->value,
             ])
