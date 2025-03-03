@@ -26,12 +26,10 @@ enum State: string
     public static function toCountrySelectorOptions(): Collection
     {
         return static::all()
-            ->map(static fn ($state) => [
-                'country' => $state->getCountry(),
+            ->groupBy(static fn ($states) => $states->getCountry())
+            ->map(static fn ($states) => $states->map(static fn ($state) => [
                 'label' => $state->getLabel(),
                 'value' => $state->value,
-            ])
-            ->groupBy('country')
-            ->map(static fn ($option) => Arr::except($option, 'country'));
+            ]));
     }
 }
