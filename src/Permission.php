@@ -30,6 +30,7 @@ enum Permission: string
     case CREATE_INTEGRATION = 'integrations:create';
     case CREATE_KLAVIYO_INTEGRATION = 'integrations:klaviyo:create';
     case CREATE_MENU = 'menus:create';
+    case CREATE_MESSAGE = 'messages:create';
     case CREATE_NETSUITE_INTEGRATION = 'integrations:netsuite:create';
     case CREATE_NOTE = 'notes:create';
     case CREATE_ORDER = 'orders:create';
@@ -40,6 +41,7 @@ enum Permission: string
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
     case CREATE_TAG = 'tags:create';
     case CREATE_TEAM = 'teams:create';
+    case CREATE_TICKET = 'tickets:create';
     case CREATE_TRANSACTION = 'transactions:create';
     case CREATE_WEBHOOK = 'webhooks:create';
     case DEACTIVATE_DELIVERY_SCHEDULE = 'delivery-schedules:deactivate';
@@ -138,6 +140,8 @@ enum Permission: string
     case VIEW_TAGS = 'tags:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
+    case VIEW_TICKET = 'tickets:show';
+    case VIEW_TICKETS = 'tickets:index';
     case VIEW_USER = 'users:show';
     case VIEW_USERS = 'users:index';
     case VIEW_WEBHOOK = 'webhooks:show';
