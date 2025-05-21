@@ -11,5 +11,6 @@ enum TransactionStatus: string
     use AvailableAsCollection, CanBeRandomized, HasTranslation;
 
     case FAILED = 'failed';
+    case PENDING = 'pending';
     case SUCCEEDED = 'succeeded';
 }
