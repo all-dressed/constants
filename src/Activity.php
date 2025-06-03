@@ -27,6 +27,7 @@ enum Activity: string
     case SENT_GIFT_CARD = 'gift-cards:sent';
     case SKIPPED_MENU = 'subscriptions:skipped-menu';
     case UPDATED_CREDITS = 'customers:credits:updated';
+    case UPDATED_REFERRALS = 'customers:referrals:updated';
     case UPDATED_CUSTOMER = 'customers:updated';
     case UNSKIPPED_MENU = 'subscriptions:unskipped-menu';
 }
