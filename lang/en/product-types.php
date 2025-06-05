@@ -7,4 +7,5 @@ return [
     ProductType::GENERIC->value => 'Generic',
     ProductType::PET_FOOD->value => 'Pet Food',
     ProductType::PET_TOY->value => 'Pet Toy',
+    ProductType::Clothing->value => 'Clothing',
 ];

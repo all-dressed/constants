@@ -14,4 +14,6 @@ enum ProductType: string
     case GENERIC = 'generic';
     case PET_FOOD = 'pet-food';
     case PET_TOY = 'pet-toy';
+
+    case Clothing = 'clothing';
 }
