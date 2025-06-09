@@ -12,7 +12,6 @@ enum ProductType: string
 
     case ACCESSORY = 'accessory';
     case CLOTHING = 'clothing';
-
     case EDIBLE = 'edible';
     case GENERIC = 'generic';
     case PET_FOOD = 'pet-food';
