@@ -16,6 +16,10 @@ return [
         'title' => 'Cancelled subscription',
         'value' => ':name has cancelled a subscription.',
     ],
+    Activity::CREATED_CUSTOMER->value => [
+        'title' => 'Customer created',
+        'value' => ':name has created :customer\'s profile',
+    ],
     Activity::DELETED_CUSTOMER->value => ':name has deleted :customer\'s profile',
     Activity::FAILED_PAYMENT->value => [
         'title' => 'Payment refused',
