@@ -10,7 +10,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Lang;
 
-enum CanadaState: string
+enum CanadianState: string
 {
     use AvailableAsCollection, AvailableAsOptions, CanBeRandomized;
 

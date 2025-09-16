@@ -5,7 +5,6 @@ namespace AllDressed\Constants;
 use AllDressed\Constants\Concerns\AvailableAsCollection;
 use AllDressed\Constants\Concerns\AvailableAsOptions;
 use AllDressed\Constants\Concerns\CanBeRandomized;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 
 enum State: string
@@ -17,7 +16,7 @@ enum State: string
      */
     public static function all(): Collection
     {
-        return collect([...AustraliaState::cases(), ...CanadaState::cases()]);
+        return collect([...AustralianState::cases(), ...CanadianState::cases()]);
     }
 
     /**
