@@ -14,4 +14,5 @@ enum ThirdPartyService: string
     case KLAVIYO = 'klaviyo';
     case LEGACY_CUSTOMER_NOTES = 'legacy-customer-notes';
     case NETSUITE = 'netsuite';
+    case ZENDESK = 'zendesk';
 }

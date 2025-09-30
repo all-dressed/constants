@@ -8,4 +8,5 @@ return [
     ThirdPartyService::KLAVIYO->value => 'Klaviyo',
     ThirdPartyService::LEGACY_CUSTOMER_NOTES->value => 'Legacy Customer Notes',
     ThirdPartyService::NETSUITE->value => 'NetSuite',
+    ThirdPartyService::ZENDESK->value => 'Zendesk',
 ];
