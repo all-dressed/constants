@@ -39,6 +39,7 @@ enum Permission: string
     case CREATE_PACKAGE = 'packages:create';
     case CREATE_SUBSCRIPTION = 'subscriptions:create';
     case CREATE_TAG = 'tags:create';
+    case CREATE_TAX = 'taxes:create';
     case CREATE_TEAM = 'teams:create';
     case CREATE_TRANSACTION = 'transactions:create';
     case CREATE_WEBHOOK = 'webhooks:create';
@@ -55,6 +56,7 @@ enum Permission: string
     case DELETE_PAYMENT_GATEWAY = 'gateways:delete';
     case DELETE_PAYMENT_METHOD = 'customers:payment-methods:delete';
     case DELETE_PRODUCT = 'products:delete';
+    case DELETE_TAX = 'taxes:delete';
     case DELETE_TEAM = 'teams:delete';
     case DELETE_USER = 'users:delete';
     case DELETE_WEBHOOK = 'webhooks:delete';
@@ -79,6 +81,7 @@ enum Permission: string
     case UPDATE_PRODUCT = 'products:update';
     case UPDATE_SETTING = 'settings:update';
     case UPDATE_SUBSCRIPTION = 'subscriptions:update';
+    case UPDATE_TAX = 'taxes:update';
     case UPDATE_TEAM = 'teams:update';
     case UPDATE_USER = 'users:update';
     case UPDATE_WEBHOOK = 'webhooks:update';
@@ -136,6 +139,8 @@ enum Permission: string
     case VIEW_SUBSCRIPTIONS_CHURN = 'subscriptions:churn:show';
     case VIEW_SUBSCRIPTIONS_LTV = 'subscriptions:ltv:show';
     case VIEW_TAGS = 'tags:index';
+    case VIEW_TAX = 'taxes:show';
+    case VIEW_TAXES = 'taxes:index';
     case VIEW_TEAM = 'teams:show';
     case VIEW_TEAMS = 'teams:index';
     case VIEW_USER = 'users:show';
