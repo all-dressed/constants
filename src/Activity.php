@@ -29,5 +29,6 @@ enum Activity: string
     case SKIPPED_MENU = 'subscriptions:skipped-menu';
     case UPDATED_CREDITS = 'customers:credits:updated';
     case UPDATED_CUSTOMER = 'customers:updated';
+    case UPDATED_PRODUCT = 'products:updated';
     case UNSKIPPED_MENU = 'subscriptions:unskipped-menu';
 }
