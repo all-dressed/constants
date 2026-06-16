@@ -12,6 +12,7 @@ enum InvoiceType: string
 
     case CANCELLATION = 'cancellation';
     case CREDIT = 'credit';
+    case DISPUTE = 'dispute';
     case PAYMENT = 'payment';
     case QUOTE = 'quote';
     case REFUND = 'refund';
