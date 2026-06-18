@@ -16,6 +16,7 @@ enum Activity: string
     case DELETED_CUSTOMER = 'customers:deleted';
     case DISCONTINUED_PRODUCT = 'products:discontinued';
     case FAILED_PAYMENT = 'customers:failed-payment';
+    case NEW_REFERRAL_CODE = 'customers:referrals:created';
     case PAUSED_SUBSCRIPTION = 'subscriptions:paused';
     case PAID_ORDER = 'orders:paid';
     case PLACED_ORDER = 'orders:new';
@@ -28,5 +29,6 @@ enum Activity: string
     case SKIPPED_MENU = 'subscriptions:skipped-menu';
     case UPDATED_CREDITS = 'customers:credits:updated';
     case UPDATED_CUSTOMER = 'customers:updated';
+    case UPDATED_PRODUCT = 'products:updated';
     case UNSKIPPED_MENU = 'subscriptions:unskipped-menu';
 }

@@ -10,8 +10,11 @@ enum ThirdPartyService: string
     use CanBeRandomized, HasTranslation;
 
     case BECOOL = 'becool';
+    case BUTCHERCROWD_DASHBOARD = 'butchercrowd-dashboard';
     case GLEEN_AI = 'gleen-ai';
     case KLAVIYO = 'klaviyo';
     case LEGACY_CUSTOMER_NOTES = 'legacy-customer-notes';
     case NETSUITE = 'netsuite';
+    case TRIPLE_WHALE = 'triple-whale';
+    case ZENDESK = 'zendesk';
 }
